@@ -1,0 +1,197 @@
+
+
+
+[
+    {
+        "Nom": "Alice Dupont",
+        "montant_cotise": 150.00,
+        "montant_restant": 50.00,
+        "statut": "admin",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-01-15",
+        "date_de_fin": "2024-12-31",
+        "Progression": "75%",
+        "email": "alice.dupont@example.com",
+        "telephone": "0123456789"
+    },
+    {
+        "Nom": "Jean Martin",
+        "montant_cotise": 100.00,
+        "montant_restant": 100.00,
+        "statut": "valide",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-02-10",
+        "date_de_fin": "2024-12-31",
+        "Progression": "50%",
+        "email": "jean.martin@example.com",
+        "telephone": "0234567890"
+    },
+    {
+        "Nom": "Sophie Durand",
+        "montant_cotise": 80.00,
+        "montant_restant": 120.00,
+        "statut": "en attente",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-03-05",
+        "date_de_fin": "2024-12-31",
+        "Progression": "40%",
+        "email": "sophie.durand@example.com",
+        "telephone": "0345678901"
+    },
+    {
+        "Nom": "Marc Leroy",
+        "montant_cotise": 120.00,
+        "montant_restant": 80.00,
+        "statut": "en cours",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-02-20",
+        "date_de_fin": "2024-12-31",
+        "Progression": "60%",
+        "email": "marc.leroy@example.com",
+        "telephone": "0456789012"
+    },
+    {
+        "Nom": "Chloé Bernard",
+        "montant_cotise": 200.00,
+        "montant_restant": 0.00,
+        "statut": "terminé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-01-30",
+        "date_de_fin": "2024-12-31",
+        "Progression": "100%",
+        "email": "chloe.bernard@example.com",
+        "telephone": "0567890123"
+    },
+    {
+        "Nom": "Paul Simon",
+        "montant_cotise": 50.00,
+        "montant_restant": 150.00,
+        "statut": "bloqué",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-04-01",
+        "date_de_fin": "2024-12-31",
+        "Progression": "25%",
+        "email": "paul.simon@example.com",
+        "telephone": "0678901234"
+    },
+    {
+        "Nom": "Emma Dubois",
+        "montant_cotise": 90.00,
+        "montant_restant": 110.00,
+        "statut": "archivé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-05-12",
+        "date_de_fin": "2024-12-31",
+        "Progression": "45%",
+        "email": "emma.dubois@example.com",
+        "telephone": "0789012345"
+    },
+    {
+        "Nom": "Lucas Lefèvre",
+        "montant_cotise": 70.00,
+        "montant_restant": 130.00,
+        "statut": "valide",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-06-25",
+        "date_de_fin": "2024-12-31",
+        "Progression": "35%",
+        "email": "lucas.lefevre@example.com",
+        "telephone": "0890123456"
+    },
+    {
+        "Nom": "Isabelle Garnier",
+        "montant_cotise": 120.00,
+        "montant_restant": 80.00,
+        "statut": "en cours",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-07-15",
+        "date_de_fin": "2024-12-31",
+        "Progression": "60%",
+        "email": "isabelle.garnier@example.com",
+        "telephone": "0901234567"
+    },
+    {
+        "Nom": "Thomas Richard",
+        "montant_cotise": 140.00,
+        "montant_restant": 60.00,
+        "statut": "en attente",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-08-01",
+        "date_de_fin": "2024-12-31",
+        "Progression": "70%",
+        "email": "thomas.richard@example.com",
+        "telephone": "1012345678"
+    },
+    {
+        "Nom": "Céline Moreau",
+        "montant_cotise": 110.00,
+        "montant_restant": 90.00,
+        "statut": "bloqué",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-09-10",
+        "date_de_fin": "2024-12-31",
+        "Progression": "55%",
+        "email": "celine.moreau@example.com",
+        "telephone": "1123456789"
+    },
+    {
+        "Nom": "Antoine Fournier",
+        "montant_cotise": 130.00,
+        "montant_restant": 70.00,
+        "statut": "terminé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-09-25",
+        "date_de_fin": "2024-12-31",
+        "Progression": "65%",
+        "email": "antoine.fournier@example.com",
+        "telephone": "1234567890"
+    },
+    {
+        "Nom": "Clara Petit",
+        "montant_cotise": 160.00,
+        "montant_restant": 40.00,
+        "statut": "valide",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-10-01",
+        "date_de_fin": "2024-12-31",
+        "Progression": "80%",
+        "email": "clara.petit@example.com",
+        "telephone": "1345678901"
+    },
+    {
+        "Nom": "Hugo Lambert",
+        "montant_cotise": 50.00,
+        "montant_restant": 150.00,
+        "statut": "archivé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-10-10",
+        "date_de_fin": "2024-12-31",
+        "Progression": "25%",
+        "email": "hugo.lambert@example.com",
+        "telephone": "1456789012"
+    },
+    {
+        "Nom": "Julien Morel",
+        "montant_cotise": 90.00,
+        "montant_restant": 110.00,
+        "statut": "bloqué",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-10-12",
+        "date_de_fin": "2024-12-31",
+        "Progression": "45%",
+        "email": "julien.morel@example.com",
+        "telephone": "1567890123"
+    },
+    {
+        "Nom": "Laure Dupuis",
+        "montant_cotise": 120.00,
+        "montant_restant": 80.00,
+        "statut": "archivé",
+        "montant_total_cotise": 200.00,
+        "Date": "2024-10-14",
+        "date_de_fin": "2024-12-31",
+        "Progression": "60%",
+        "email": "laure.dupuis@example.com",
+        "telephone": "1678901234"
+    }
+]
