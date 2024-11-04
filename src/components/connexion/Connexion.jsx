@@ -1,7 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import imgconnexion from '../../assets/img-connexion.png';
 
 export default function Connexion() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    navigate('/dashboard');
+  };
+
   return (
     <div className="flex flex-col md:flex-row h-screen">
       <div className="md:w-2/5 bg-[#224957] hidden md:flex items-center justify-center rounded-r-3xl">
@@ -17,7 +25,7 @@ export default function Connexion() {
         <p className="mb-6 text-center text-[#224957]">
           Connectez-vous et gérez vos cotisations
         </p>
-        <form className="flex flex-col space-y-6 w-full max-w-xs">
+        <form className="flex flex-col space-y-6 w-full max-w-xs" onSubmit={handleSubmit}>
           <input
             type="email"
             placeholder="N° Téléphone"

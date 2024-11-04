@@ -6,6 +6,7 @@ import SinglePage from "./components/singlePage/SinglePage";
 import Dashboard from "./components/dashboard/Dashboard";
 import Cotisation from "./components/cotisation/Cotisation";
 import Utilisateur from "./components/utilisateur/Utilisateur";
+import Parametre_generaux from "./components/parametreGeneraux/ParametreGeneraux";
 export default function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/utilisateur" element={<Utilisateur />} />
         <Route path="/cotisation" element={<Cotisation />} />
+        <Route path="/parametregeneraux" element={<Parametre_generaux />} />
       </Routes>
     </BrowserRouter>
   );

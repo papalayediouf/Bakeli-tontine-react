@@ -1,13 +1,19 @@
-
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { useNavigate } from 'react-router-dom';
 
 export default function DropdownNav() {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    
+    navigate('/');
+  };
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-         
           <ChevronDownIcon aria-hidden="true" className="-mr-1 h-5 w-5 text-gray-400" />
         </MenuButton>
       </div>
@@ -20,32 +26,30 @@ export default function DropdownNav() {
           <MenuItem>
             <a
               href="#"
-              className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:forced-color-adjust-none data-[focus]:forced-colors:bg-[Highlight] data-[focus]:forced-colors:text-[HighlightText]"
+              className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
-             Priofil
+              Profil
             </a>
           </MenuItem>
-          
           <MenuItem>
             <a
               href="#"
-              className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:forced-color-adjust-none data-[focus]:forced-colors:bg-[Highlight] data-[focus]:forced-colors:text-[HighlightText]"
+              className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
-            Modifier Mot de passe
+              Modifier Mot de passe
             </a>
           </MenuItem>
-          <form action="#" method="POST">
-            <MenuItem>
-              <button
-                type="submit"
-                className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:forced-color-adjust-none data-[focus]:forced-colors:bg-[Highlight] data-[focus]:forced-colors:text-[HighlightText]"
-              >
-               Deconnexion
-              </button>
-            </MenuItem>
-          </form>
+          <MenuItem>
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+            >
+              Deconnexion
+            </button>
+          </MenuItem>
         </div>
       </MenuItems>
     </Menu>
-  )
+  );
 }
